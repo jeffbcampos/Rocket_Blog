@@ -1,0 +1,85 @@
+* {  /* * representa todo o conteúdo da pagina */
+    margin: 0;
+    box-sizing: border-box; /*Para conta o tamanho a partir da borda*/
+    padding-bottom: 0;
+}
+
+:root {
+    font-size: 62.5%;
+    --purple-bg: #290742;
+    --dark-bg: #170027;
+    --button-bg: #9e6dc2;
+    --white: #fff;
+    --light-purple: #fbf6ff;
+    --green: #4fff4b;
+}
+
+body {
+    background-color: hsl(275, 81%, 14%);
+    margin-top: 6.4rem;
+    margin-inline: center; 
+    width: 100vw;
+              
+}
+
+.logo {
+    margin-right: 21.2rem; 
+    align-items: center; 
+    align-content: center;  
+    
+}
+
+.menu {       
+    font-size: 1.8rem;    
+    color: white;
+    margin-inline: auto;
+    align-items: center;
+    align-content: center;
+}
+
+.menu ul, li {
+    display: flex;
+    gap: 3.2rem;
+    text-decoration: none;
+    list-style-type: none;
+    align-items: center;
+    align-content: center;
+    
+    
+}
+
+#search {
+    width: 23rem;
+    height: 4.4rem;
+    margin-left: 15.3rem;
+    background-color: black;
+    border-radius: 4px 0px 0px 4px;
+    border: none;
+    padding: 2.56rem;
+}
+
+.content {
+    font-family: 'Poppins';    
+    margin-top: 6.4rem;    
+    font-size: 3.6rem;    
+    width: 62rem;
+    height: 16.2rem;
+    text-align: justify;
+    color: var(--button-bg);
+    padding-left: 4rem;
+    margin-bottom: 1.6rem;    
+}
+
+.content p {
+    font-family: 'Roboto';
+    font-size: 1.8rem;
+    margin-top: 1.6rem;
+    color: white;
+    font-weight: 400;
+    line-height: 2.7rem;
+}
+
+.img {
+    position: absolute;
+    left: 50%;
+}
