@@ -1,0 +1,73 @@
+
+:root {
+    font-size: 62.5%;   
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 6rem;
+    margin-left: 13.6rem;
+    font-family: 'Roboto';       
+    
+}
+
+.cards {
+    display: flex;
+    gap: 13.1rem;    
+}
+
+p {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}
+
+.card-main {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    width: 56.9rem;    
+    margin-bottom: 1.6rem;
+    text-align: left;         
+}
+
+.back {
+    position:absolute;
+    mix-blend-mode: screen;
+}
+
+h3 {
+    color: hsla(275, 81%, 14%);
+    
+}
+
+.card-main, h3 {
+    font-size: 2.4rem;
+}
+
+.card-second {
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;    
+    width: 47rem;
+    text-align:left;
+}
+
+hr {
+    margin-top: 2.35rem;    
+    border-color: #F2E7FA;
+    height: .1rem;
+    
+}
+
+.card-third {
+    display: flex;
+    flex-direction: column; 
+    gap: .8rem;   
+    margin-top: 2.39rem;
+    width: 47rem;
+
+}
