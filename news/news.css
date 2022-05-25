@@ -58,8 +58,9 @@ h3 {
 
 hr {
     margin-top: 2.35rem;    
-    border-color: #F2E7FA;
+    border-color: hsla(275, 64%, 94%, 1);
     height: .1rem;
+    opacity: 30%;
     
 }
 
