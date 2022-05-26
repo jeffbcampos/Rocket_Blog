@@ -5,14 +5,14 @@
 
 * {
     margin: 0;
-    box-sizing: border-box;
+    box-sizing: border-box;    
 }
 
 body {
     margin-top: 6rem;
     margin-left: 13.6rem;
-    font-family: 'Roboto';       
-    
+    font-family: 'Roboto';
+       
 }
 
 .cards {
@@ -34,7 +34,7 @@ p {
     text-align: left;         
 }
 
-.back {
+#back {
     position:absolute;
     mix-blend-mode: screen;
 }
@@ -72,3 +72,18 @@ hr {
     width: 47rem;
 
 }
+
+.rodape {
+    display: flex;    
+    margin-top: 4.37rem;
+    width: 37rem;
+    height: 25.95rem;    
+    gap: 3rem;    
+}
+
+.articles {
+    display: flex; 
+    flex-direction: column; 
+    gap: .8rem;    
+}
+
